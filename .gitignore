@@ -1,0 +1,5 @@
+data/*.sqlite3
+data/*.txt
+__pycache__/
+venv/
+.env
