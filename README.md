@@ -17,7 +17,7 @@ git clone https://github.com/Nediorg/SlovSmesh.git
 python3 -m venv .venv
 . .venv/bin/activate
 ```
-3. (Необязательно) Поменяйте IP или порт в [\_\_main__.py](./slovsmesh/__main__.py)
+3. (Опционально) Поменяйте IP или порт в [\_\_main__.py](./slovsmesh/__main__.py). По умолчанию сервер настроен на запуск по адресу  `127.0.0.1:1234`. Если вы запускаете игру локально, используйте это значение.
 4. Запустите сервер:
 ```
 python3 -m slovsmesh
